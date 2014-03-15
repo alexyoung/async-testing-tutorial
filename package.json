@@ -7,7 +7,7 @@
   , "main": "index"
   , "engines": { "node": ">= 0.4.x < 0.7.0" }
   , "scripts": {
-    "test": "make test"
+    "test": "mocha -u tdd"
   }
   , "devDependencies": {
     "mocha": "0.3.x"
